@@ -1,9 +1,12 @@
 import React from 'react';
+
+import './Global/Global.css';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-import Login from './components/Login/Login';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import Login from './Components/Login/Login';
 
 function App() {
   return (
