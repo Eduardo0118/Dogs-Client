@@ -10,6 +10,10 @@ const types = {
     regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/,
     message:
       'Sua deve conter no mínimo 8 caracteres, 2 números, 2 letras maiúsculas e 1 caracter especial'
+  },
+  number: {
+    regex: /^\d+$/,
+    message: 'Utilize apenas números!'
   }
 };
 
